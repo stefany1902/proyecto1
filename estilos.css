@@ -1,0 +1,84 @@
+.contenedor1 {
+    color: rgb(10, 105, 15);
+    font-size: 17px;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.nav-links {
+    margin: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 18px;
+
+}
+.nav-links a {
+    color: rgb(219, 54, 150);
+    text-decoration: none;
+
+}
+
+.nav-links span {
+    margin: 0 5px;
+}
+h2 {
+    color: rgb(158, 26, 114);
+    font-size: 20px;
+    border: 2px solid black;
+    text-align: center;
+    word-spacing: 50px;
+    border-radius: 10px;
+}
+.presentacion {
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+
+}
+
+.datos {
+    margin-bottom: 20px;
+}
+
+.contenido {
+    display: flex;
+    align-items: center; /* Centra la descripción respecto a la foto */
+    gap: 20px;
+    
+}
+
+.contenido img {
+    width: 190px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+
+.descripcion {
+    margin: 0;
+    text-align: justify;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    word-spacing: 9px;
+}
+.comentarios {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border: 2px solid #555;
+    border-radius: 10px;
+}
+.footer {
+    background-color: #e68d8d;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
